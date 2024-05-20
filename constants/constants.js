@@ -62,6 +62,14 @@ export const SKILLS = [
     level: '88%',
   },
   {
+    title: 'Cloudflare',
+    level: '80%',
+  },
+  {
+    title: 'Sucuri',
+    level: '80%',
+  },
+  {
     title: 'Terraform',
     level: '52%',
   },
@@ -167,6 +175,8 @@ export const CLOUD_PROVIDER = [
 export const TECH_STACK = [
   'Jenkins',
   'Grafana',
+  'Cloudflare',
+  'Sucuri',
   'Helm',
   'Ansible',
   'Terraform',

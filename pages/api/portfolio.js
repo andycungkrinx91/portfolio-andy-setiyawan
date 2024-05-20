@@ -24,212 +24,290 @@ const portfolio = [
         ]
     },
     {
-        id: 0,
-        projectName: "ABSCO",
-        url: "https://absco.sa/",
-        image: "projects/absco.png",
-        projectDetail: "ABSCO offer unparalleled business consulting solutions to meet client’s unique needs.",
-        technologiesUsed: [
-            {
-                tech: "ReactJS"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
-        id: 0,
-        projectName: "JMM Technologies",
-        url: "https://jmm.ltd/",
-        image: "projects/jmm.png",
-        projectDetail: "JMM Technologies is a start-up turned technology company with extensive years of experience delivering digital solutions. As a fast-growing tech firm, we help diverse businesses and organizations. Our expertise in innovative, state-of-the-art digital services accelerates business growth and enhances customer impact.",
-        technologiesUsed: [
-            {
-                tech: "ReactJS"
-            },
-            {
-                tech: ".net"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
-        id: 0,
-        projectName: "ALSN",
-        url: "https://alsn.app/",
-        image: "projects/alsn.png",
-        projectDetail: "ASLN drives digital transformation with certified document translation services. In an interconnected world where seamless communication is imperative, they are strategically positioned to cater to the needs of businesses, individuals, and organizations.",
-        technologiesUsed: [
-            {
-                tech: "ReactJS"
-            },
-            {
-                tech: ".net"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
-        id: 0,
-        projectName: "FirmSanad",
-        url: "/domain-expired",
-        image: "projects/firmsanad.png",
-        projectDetail: "Invest in Saudi Arabia, Streamline Your Business Setup Process in Saudi Arabia with FirmSanad Simplify the process of obtaining licenses and starting a business in Saudi Arabia with our streamlined platform.",
-        technologiesUsed: [
-            {
-                tech: "ReactJS"
-            },
-            {
-                tech: ".net"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
-        id: 0,
-        projectName: "Fateh Al Mustaqbil",
-        url: "https://fatehtour.com/",
-        image: "projects/fateh.png",
-        projectDetail: "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Their expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance.",
-        technologiesUsed: [
-            {
-                tech: "ReactJS"
-            },
-            {
-                tech: ".net"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
-        id: 0,
-        projectName: "Tojjar",
-        url: "/domain-expired",
-        image: "projects/tojjar.png",
-        projectDetail: "Tojjar is ecommerce website,  where you can open your own store and sell products of different brands!",
-        technologiesUsed: [
-            {
-                tech: "Nextjs with SSR"
-            },
-            {
-                tech: "Laravel"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
         id: 1,
-        projectName: "Otawix",
-        url: "https://b2c.otawix.com/",
-        image: "projects/otawix.png",
-        projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
+        projectName: "9to9",
+        url: "https://9to9.co.id/",
+        image: "projects/9to9.png",
+        projectDetail: "9to9 was established in 2017 as an online shopping site in Indonesia. Over the years, we have expanded our business into several Asian countries, including Indonesia, Malaysia and Singapore. ",
         technologiesUsed: [
             {
-                tech: "NextJS"
+                tech: "ReactJS"
             },
             {
-                tech: "NodeJS"
+                tech: "Magento"
             },
             {
-                tech: "REST API's"
+                tech: "GraphQL"
             },
             {
-                tech: "MUI"
+                tech: "Kubernetes"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Huawei Cloud"
+            },
+            {
+                tech: "Sucuri"
             },
         ]
     },
     {
         id: 2,
-        projectName: "Spatay",
-        url: "https://spatay.com/",
-        image: "projects/spatay.png",
-        projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
+        projectName: "Sambara",
+        url: "https://sambara.bapenda.jabarprov.go.id/sambara_v2/",
+        image: "projects/sambara.png",
+        projectDetail: "Aplikasi yang dibuat BAPENDA Jawa Barat untuk melakukan pengecekan Pajak Kendaraan Bermotor di wilayah Jawa Barat.",
+        technologiesUsed: [
+            {
+                tech: "Laravel"
+            },
+            {
+                tech: "Android"
+            },
+            {
+                tech: "IOS"
+            },
+            {
+                tech: "Flutter"
+            },
+            {
+                tech: "PHP"
+            },
+        ]
+    },
+    {
+        id: 3,
+        projectName: "Kawanlama Group",
+        url: "https://www.kawanlama.com/",
+        image: "projects/kawanlama.png",
+        projectDetail: "PT Kawan Lama Solusi — Indonesia's leading distribution company with the widest range of industrial equipment and machinery. Operates in more than 19 branches across the country. Over half of century providing only the best industrial solution by experienced sales engineer team to meet the demands of the industry.",
         technologiesUsed: [
             {
                 tech: "ReactJS"
             },
             {
-                tech: "NodeJS"
+                tech: "Magento"
             },
             {
-                tech: "REST API's"
+                tech: "Redhat"
             },
             {
-                tech: "Ant Design"
+                tech: "AWS"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Fortigate"
             },
         ]
     },
-    // {
-    //     id: 2,
-    //     projectName: "Culyte",
-    //     url: "https://culyte.com",
-    //     image: "projects/culyte.png",
-    //     projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
-    //     technologiesUsed: [
-    //         {
-    //             tech: "ReactJS"
-    //         },
-    //         {
-    //             tech: "NodeJS"
-    //         },
-    //         {
-    //             tech: "Ant Design"
-    //         },
-    //         {
-    //             tech: "TailwindCSS"
-    //         },
-    //     ]
-    // },
+    {
+        id: 4,
+        projectName: "Lottemartmall",
+        url: "https://medbiz.id/",
+        image: "projects/lottemart.png",
+        projectDetail: "LOTTE Mart bergerak menjadi perusahaan yang berkembang dengan cepat dan dikagumi melalui penyediaan produk terpercaya yang membawa kebahagiaan dan menciptakan nilai baru untuk mendapatkan konsumen serta memberikan Kenyamanan Dalam Berbelanja dalam upaya melakukan bisnis jangka panjang di Indonesia.",
+        technologiesUsed: [
+            {
+                tech: "ReactJS"
+            },
+            {
+                tech: "React Native"
+            },
+            {
+                tech: "Magento"
+            },
+            {
+                tech: "GraphQL"
+            },
+            {
+                tech: "Ubuntu"
+            },
+            {
+                tech: "AWS"
+            },
+            {
+                tech: "Sucuri"
+            },
+        ]
+    },
+    {
+        id: 5,
+        projectName: "3",
+        url: "https://perdana.tri.co.id/perdana",
+        image: "projects/three.png",
+        projectDetail: "Accuired by Indosat at 2022. Indosat Ooredoo Hutchison, Bersatu untuk Indonesia. Memajukan masyarakat Indonesia dengan menyediakan layanan telekomunikasi digital terkemuka.",
+        technologiesUsed: [
+            {
+                tech: "Magento"
+            },
+            {
+                tech: "Redhat"
+            },
+            {
+                tech: "Fortigate"
+            },
+        ]
+    },
+    {
+        id: 6,
+        projectName: "Exsport",
+        url: "https://exsport.co.id/",
+        image: "projects/exsport.png",
+        projectDetail: "Hello, We are Exsport ! We are carry goods brand which established in 1979 to create timeless journey essentials with fine details.",
+        technologiesUsed: [
+            {
+                tech: "ReactJS"
+            },
+            {
+                tech: "Magento"
+            },
+            {
+                tech: "GraphQL"
+            },
+            {
+                tech: "Kubernetes"
+            },
+            {
+                tech: "GCP"
+            },
+        ]
+    },
+    {
+        id: 7,
+        projectName: "Bodypack",
+        url: "https://bodypack.co.id/",
+        image: "projects/bodypack.png",
+        projectDetail: "Born in 1996, Bodypack has always been the pioneer of design, production, and distribution of digital cases in Indonesia. We believe small and simple solutions are the keys to improving digital native’s life. As time goes by, we have been maintaining positive and healthy relationships with communities within this industry.",
+        technologiesUsed: [
+            {
+                tech: "ReactJS"
+            },
+            {
+                tech: "Magento"
+            },
+            {
+                tech: "GraphQL"
+            },
+            {
+                tech: "Kubernetes"
+            },
+            {
+                tech: "GCP"
+            },
+        ]
+    },
+    {
+        id: 8,
+        projectName: "Belanjaku Online",
+        url: "https://belanjaku.online/",
+        image: "projects/belanjaku.png",
+        projectDetail: "Step into the next generation of online shopping with Belanjaku.online. Brought to you by © SIRCLO, this checkout platform ensures that your brand journey from cart to completion is as smooth as it gets. Indulge your customers in a shopping experience tailored just for them!",
+        technologiesUsed: [
+            {
+                tech: "ReactJS"
+            },
+            {
+                tech: "Magento"
+            },
+            {
+                tech: "GraphQL"
+            },
+            {
+                tech: "Kubernetes"
+            },
+            {
+                tech: "Huawei Cloud"
+            },
+            {
+                tech: "Cloudflare"
+            },
+        ]
+    },
+    {
+        id: 9,
+        projectName: "Toto (Surya Pertiwi)",
+        url: "https://shop.suryapertiwi.co.id/",
+        image: "projects/toto.png",
+        projectDetail: "As Indonesia's leading distributor of sanitary wares and bathroom fittings, we pride ourselves in providing value, range and quality to our customers. More than just a distributorship, PT. Surya Pertiwi Tbk is the leading purveyor of quality lifestyle.",
+        technologiesUsed: [
+            {
+                tech: "ReactJS"
+            },
+            {
+                tech: "Magento"
+            },
+            {
+                tech: "GraphQL"
+            },
+            {
+                tech: "Kubernetes"
+            },
+            {
+                tech: "Huawei Cloud"
+            },
+            {
+                tech: "Sucuri"
+            },
+        ]
+    },
+    {
+        id: 10,
+        projectName: "Kartikasari",
+        url: "https://kartikasari.com/",
+        image: "projects/kartikasari.png",
+        projectDetail: "Kue-kue Kartika Sari® yang menjadi oleh-oleh favorit Anda adalah resep turun-menurun keluarga Ibu Ratnawati yang didapatkan sejak jaman kolonial Belanda. Koleksi resep disimpan dengan baik dan diteliti, sebelum diterapkan ke produk-produk Kartika Sari® agar kualitas dan rasa tetap terasa sempurna.",
+        technologiesUsed: [
+            {
+                tech: "ReactJS"
+            },
+            {
+                tech: "Magento"
+            },
+            {
+                tech: "GraphQL"
+            },
+            {
+                tech: "Kubernetes"
+            },
+            {
+                tech: "Huawei Cloud"
+            },
+            {
+                tech: "Sucuri"
+            },
+        ]
+    },
+    {
+        id: 11,
+        projectName: "Datascrip",
+        url: "https://datascripmall.id/",
+        image: "projects/datascrip.png",
+        projectDetail: "DatascripMall.ID adalah marketplace B2C terbaik sebagai e-commerce dan situs belanja online, di mana menjadi business solutions dengan pilihan produk asli juga bergaransi resmi. DatascripMall.ID menawarkan berbagai produk kebutuhan bisnis dan rumah tangga dengan koleksi terlengkap dari distributor utama. Beragam peralatan dan perlengkapan kantor seperti printer, scanner, jenis-jenis tinta, desktop pc, notebook sekaligus aksesoris komputer, kamera, hingga furniture kantor. DatascripMall.ID juga menghadirkan promo diskon special dan menarik dari produk brand ternama.",
+        technologiesUsed: [
+            {
+                tech: "ReactJS"
+            },
+            {
+                tech: "React Native"
+            },
+            {
+                tech: "Magento"
+            },
+            {
+                tech: "GraphQL"
+            },
+            {
+                tech: "Kubernetes"
+            },
+            {
+                tech: "GCP"
+            },
+            {
+                tech: "Sucuri"
+            },
+            {
+                tech: "Bunny CDN"
+            },
+        ]
+    },
 ]
 export default function handler(req, res) {
     res.status(200).json(portfolio)
