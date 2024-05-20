@@ -27,10 +27,10 @@ const recommendationCard = [
   {
     id: 3,
     name: 'Muhammad Ullah',
-    image: "images/muhammad.jpeg",
+    image: "images/andy.jpg",
     designation: 'MERN Stack Developer at Productbox',
     view: "I highly recommend Osama Javed for web frontend development positions. Their expertise in ReactJS and Next.js, combined with their professionalism and dedication, make them an invaluable asset to any team.",
-    linkednURL: "https://www.linkedin.com/in/muhammadullahafridi/"
+    linkednURL: "https://www.linkedin.com/in/andy-setiyawan-452396170/"
   },
 ]
 export default function handler(req, res) {

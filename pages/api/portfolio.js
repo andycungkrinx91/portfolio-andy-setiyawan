@@ -1,25 +1,25 @@
 const portfolio = [
     {
         id: 0,
-        projectName: "JMM ERP",
-        url: "https://jmmerp.com/",
-        image: "projects/erp.png",
-        projectDetail: "Restructure your business with JMM ERP’s all-in-one cloud-based ERP. JMM ERP provides a robust, cost-effective online solution with state-of-the-art software to increase business value and enhance customer impact.",
+        projectName: "Biofarma",
+        url: "https://medbiz.id/",
+        image: "projects/medbiz.png",
+        projectDetail: "Medbiz is here to facilitate the process of procuring medicinal preparations, medical devices, and other necessities through an online platform that connects business owners with official pharmaceutical distributors in Indonesia. Medbiz provides an easy shopping experience with various attractive and competitive offers.",
         technologiesUsed: [
             {
                 tech: "ReactJS"
             },
             {
-                tech: ".net"
+                tech: "Magento"
             },
             {
                 tech: "GraphQL"
             },
             {
-                tech: "Ant Design"
+                tech: "Kubernetes"
             },
             {
-                tech: "TailwindCSS"
+                tech: "GCP"
             },
         ]
     },

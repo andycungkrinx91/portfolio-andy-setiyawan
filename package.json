@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "portofolio-andy-setiyawan",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -21,6 +21,7 @@
     "react-query": "^3.39.3",
     "react-scroll": "^1.8.9",
     "sass": "^1.64.2",
+    "sharp": "^0.33.4",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {

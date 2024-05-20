@@ -10,29 +10,34 @@ const Banner = () => {
                     <div className="flex items-center md:items-center md:justify-around">
                         <div className="">
                             <div className="">
-                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, Check This Out!</h1>
+                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, This My Portofolio </h1>
+                                <h3 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Check This Out! </h3>
                             </div>
                             <div className="">
-                                <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
-                                    <span>{"<"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>
-                                        {">"} <span className="text-Snow sm:text-xl xl:text-2xl font-bold"> I am a  <span className="inline-block">
+                                <div className="py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
+                                    <span><span className="text-Green sm:text-base xl:text-lg font-bold">{">>"}</span>
+                                        <span className="text-Snow sm:text-xl xl:text-2xl font-bold"> I am a  <span className="inline-block">
                                             <Typewriter
                                                 options={{
                                                     strings:
-                                                        ['MERN Stack Developer',
-                                                            'NexJs Developer'],
+                                                        ['Cloudops Engineer',
+                                                            'Devops Engineer',
+                                                            'SRE',
+                                                            'Sysadmin',
+                                                            'Network Engineer',
+                                                            'Security Analyst'],
                                                     autoStart: true,
                                                     loop: true,
                                                 }}
                                             />
                                         </span>
-                                        </span> {"</"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>{">"} </span>
+                                        </span><span className="text-Green sm:text-base xl:text-lg font-bold">{"<<"}</span></span>
                                 </div>
                             </div>
-                            <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link>
+                            {/* <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link> */}
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
-                            <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />
+                            <img className='absolute top-8 w-full h-full' src="images/avatar.png" alt="emoji" />
                         </div>
                     </div>
                 </div>

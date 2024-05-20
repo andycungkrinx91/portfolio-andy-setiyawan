@@ -3,24 +3,17 @@ const background = [
         eduCards: [
             {
                 id: 0,
-                title: 'UET Peshawar',
-                degree: 'BS, Computer System Engineering',
-                detail: "Bachelor's Degree in Computer System Engineering from UET Peshawar.",
-                year: '2018-2022'
+                title: 'University Bina Sarana Informatika',
+                degree: 'D3, Computer System Engineering. IPK 3.25',
+                detail: "Associate Degree in Informatics Management with a focus majoring in Web Programming",
+                year: '2013-2016'
             },
             {
                 id: 1,
-                title: 'Peshawar Model Degree College',
-                degree: 'HSSC, Pre Engineering',
-                detail: "Completed FSC part 1 and part 2 in Pre-Engineering from Peshawar Model Degree College.",
-                year: '2015-2017'
-            },
-            {
-                id: 2,
-                title: 'Falcon Academy',
-                degree: 'SSC, Science Subjects',
-                detail: "Completed SSC part 1 and part 2 in Science subjects from Falcon Academy Seni Gumbat Kohat",
-                year: '2013-2015'
+                title: 'Vocational High School 45 Wonosari',
+                degree: 'Vocational High School',
+                detail: "with a focus majoring in Mecanic Automotive",
+                year: '2006-2009'
             },
         ]
     },
@@ -28,30 +21,57 @@ const background = [
         expCards: [
             {
                 id: 1,
-                title: 'JMM Technologies',
-                role: 'Frontend Developer',
-                url: 'https://jmm.ltd/',
-                desc: 'As a frontend developer, I use React, Next & JavaScript to build user interfaces for web applications.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                title: 'Sirclo (PT Lingkar Niaga Solusindo)',
+                role: 'Cloudops Engineer',
+                url: 'https://www.sirclo.com/',
+                desc: 'Research for new technology stack, Maintain CI/CD template for Kubernetes in GCP, Maintain server in AWS, Maintain configuration of server when have update, Maintain core image Swift and Oms (dockerize base for all project Swift and Oms), Cover team when have issue 1x24 hours, Help developer for bug fixing.',
+                year: '11/2019 - Present',
+                location: 'Tangerang Regency, Banten, Indonesia'
             },
             {
                 id: 2,
-                title: 'HauzaTech',
-                role: 'Internee',
+                title: 'PT Media Belajar Indonesia',
+                role: 'Network and Server Engineer',
                 url: 'no website',
-                desc: 'As an Internee, I learned how to use React & JavaScript to build interactive websites.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                desc: 'As Network and Server Engineer, Build Infrastructure for CBT system and Build up all Infra in region Yogyakarta, Lamongan, Bojonegoro, Tulungagung (Installation network and server)',
+                year: '2018 - 2019',
+                location: 'Yogyakarta, Indonesia'
             },
             {
                 id: 3,
-                title: 'Encoder Bytes',
-                role: 'PHP Developer',
-                url: 'https://www.encoderbytes.com/',
-                desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
-                year: '09/2020 - 02/2021',
-                location: 'Peshawar, Pakistan'
+                title: 'PT Aino Indonesia',
+                role: 'Network Security Analyst',
+                url: 'https://www.ainosi.co.id/',
+                desc: "As Network Security Analyst, Build up infrastructure and security rule for e-ticketing at Gembira Loka Zoo, Build up infrastructure and security rule Candi (Prambanan, Ratu Boko and Ramayana), Build up security rule for MRT, Maintain security rule at Trans Jakarta and Trans Jogja, Build up network and security in DISPERINDAG Yogyakarta",
+                year: '2018 - 2019',
+                location: 'Yogyakarta, Indonesia'
+            },
+            {
+                id: 4,
+                title: 'PT Sydeco',
+                role: 'Network Engineer & Sysadmin',
+                url: 'https://www.syde.co/',
+                desc: "As Manager Network & System Administrator, Monitoring and manage all Network and server, Patch all security hole in all server, Create a hardware for security system (build form scratch using Single Board Computer)",
+                year: '2018 - 2019',
+                location: 'Yogyakarta, Indonesia'
+            },
+            {
+                id: 5,
+                title: 'KSU Cipta',
+                role: 'IT Support',
+                url: 'no website',
+                desc: "As IT Support, Manage all network and resolv issue in region Karawang.",
+                year: '2017 - 2017',
+                location: 'Yogyakarta, Indonesia'
+            },
+            {
+                id: 6,
+                title: 'Self Experience Freelance',
+                role: 'Cloudops Enginer | Devops Engineer | Sysadmin | SRE | Network Engineer | Security Analyst | Web Developer',
+                url: 'no website',
+                desc: "Build server API gateway integration using IPSEC in SAMBARA, Build custome dockerize image with updated security patch, Build portable storage IOT for mobile device, Build miniserver portable using ARM SBC Architecture, Build online server using android device using VPN gateway, Build VPN server gateway, Build server gateway for IDS/IPS and routing direct over Mikrotik, AngularJs template from scratch, Custom topology direct VPS as gateway router, Web design for www.sajira.id and bandung.sajira.id, Create wordpress silvashopacc.store, CCTV installation at Airlangga Education Center",
+                year: '2017 - Present',
+                location: 'Indonesia'
             },
 
         ]

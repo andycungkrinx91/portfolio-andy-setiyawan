@@ -1,10 +1,7 @@
 import { useState } from 'react';
 import BannerLayout from '../components/Common/BannerLayout';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import { SiUpwork } from 'react-icons/si'
-import { HiMail, HiUser } from 'react-icons/hi'
-import { BsChatTextFill } from 'react-icons/bs'
-import Fiverr_Icon from '../components/Fiverr_Icon';
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaGitlab, FaTelegram } from 'react-icons/fa';
+import { SiGmail } from "react-icons/si";
 import Footer from '../components/Footer';
 import { Modal } from 'antd';
 
@@ -20,44 +17,46 @@ const Contact = () => {
                         <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Country:</span>
-                                <span className='text-LightGray md:text-sm'>Pakistan</span>
+                                <span className='text-LightGray md:text-sm'>Indonesia</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>City:</span>
-                                <span className='text-LightGray md:text-sm'>Peshawar</span>
+                                <span className='text-LightGray md:text-sm'>Bandung</span>
                             </div>
                             <div className="flex justify-between items-center">
-                                <span className='md:text-base'>Company:</span>
-                                <span className='text-LightGray md:text-sm'>visualsX</span>
+                                <span className='md:text-base'>Existing Company:</span>
+                                <span className='text-LightGray md:text-sm'>Sirclo</span>
                             </div>
                         </div>
                         <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Email:</span>
-                                <span className='text-LightGray text-sm'>iosamajavaid@gmail.com</span>
+                                <span className='text-LightGray text-sm'>andy.silva270114@gmail.com</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Linkedin:</span>
-                                <span className='text-LightGray text-sm'>iosamajavaid</span>
+                                <span className='text-LightGray text-sm'>Andy Setiyawan</span>
                             </div>
                             <div className="flex justify-between items-center">
-                                <span className='md:text-base'>Phone:</span>
-                                <span className='text-LightGray text-sm'>+92 (315) 9591822</span>
+                                <span className='md:text-base'>Phone / WA:</span>
+                                <span className='text-LightGray text-sm'>+6283822000035</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
-                    <a className='hover:scale-125 ease-in-out duration-700' href="" target='_blank' rel="noreferrer"><HiMail /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/osamajavaid" target='_blank' rel="noreferrer"><FaGithub /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/iosamajavaid/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
-                    {/* <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iosamajavaid" target='_blank' rel="noreferrer"><FaTwitter /></a> */}
-                    <a className='hover:scale-125 ease-in-out duration-700 hidden sm:block' href="https://www.fiverr.com/codeworthy" target='_blank' rel="noreferrer"><Fiverr_Icon /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1' href="#" target='_blank' rel="noreferrer"><SiUpwork /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://mail.google.com/mail/?view=cm&fs=1&to=andy.silva270114@gmail.com" target='_blank' rel="noreferrer"><SiGmail /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://t.me/AndyCungkrinx91" target='_blank' rel="noreferrer"><FaTelegram /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/andycungkrinx91" target='_blank' rel="noreferrer"><FaGithub /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://gitlab.com/andycungkrinx/" target='_blank' rel="noreferrer"><FaGitlab /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/andy-setiyawan-452396170/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/AndyCungkrinx" target='_blank' rel="noreferrer"><FaTwitter /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.instagram.com/andy.silva270114/" target='_blank' rel="noreferrer"><FaInstagram /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.facebook.com/dbreakingheart.mazta" target='_blank' rel="noreferrer"><FaFacebook /></a>
                 </div>
 
 
-                <div className="my-12 w-full h-auto text-Snow">
+                {/* <div className="my-12 w-full h-auto text-Snow">
                     <h1 className='text-lg font-bold'>Get In Touch</h1>
                     <div className="mt-4 py-8 px-8 bg-EveningBlack rounded-xl text-sm">
                         <div>
@@ -93,10 +92,10 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             {/* success modal */}
-            <Modal
+            {/* <Modal
                 className='card_stylings backdrop-blur-3xl drop-shadow-2xl'
                 // wrapClassName='bg-red-800'
                 centered
@@ -108,9 +107,9 @@ const Contact = () => {
             >
                 <div className='flex flex-col items-center justify-center'>
                     <h1 className='text-Green font-bold text-2xl'>In Progress</h1>
-                    <a className='underline text-Snow' target='_blank' href='https://github.com/osamajavaid/portfolio'>Be the one to integrate this!</a>
+                    <a className='underline text-Snow' target='_blank' href=''>Be the one to integrate this!</a>
                 </div>
-            </Modal>
+            </Modal> */}
             <Footer />
         </BannerLayout>
 

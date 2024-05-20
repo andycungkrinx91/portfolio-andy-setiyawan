@@ -1,28 +1,33 @@
 const expertise = [
     {
         id: 0,
-        title: 'Full Stack Development',
-        desc: 'I am a skilled MERN stack developer with extensive experience in building robust web applications using MongoDB, Express.js, React.js, and Node.js. I possess a strong understanding of server-side rendering, API integration, and database management. With my expertise, I can deliver dynamic and efficient web solutions tailored to meet the unique requirements of clients.',
+        title: 'Cloud Computing and Hosting',
+        desc: 'As a Cloudops Engineer, I have more than 4 years of experience maintaining AWS, GCP, Digitalocean, Linode, Huawei cloud and on-premise servers. I can be placed in the position of Cloudops Engineer, Devops Engineer, SRE, Sysadmin, Network Engineer and Security Analyst',
     },
     {
         id: 1,
-        title: 'Scrum and Jira',
-        desc: "As a developer, I'm proficient in Jira and Scrum methodologies. I use Jira to simplify project management tasks like task assignment, prioritization, and progress tracking. Scrum has improved my teamwork, utilizing daily stand-ups, sprint planning, and retrospectives. My expertise ensures high-quality software products are delivered promptly.",
+        title: 'Network Engineer and Sysadmin',
+        desc: "As someone who also has Network Engineer and Sysadmin experience from 2017-2019, I also have experience in maintaining servers on premises, Mikrotik, PFsense, custom IDPS, Security Network, Rule Networking Firewall, Server Installation on premises, IP Address Allocating.",
     },
     {
         id: 2,
-        title: 'Designing (UI/UX)',
-        desc: 'I am proficient in using design software such as Figma, Adobe XD, and Adobe Illustrator. Through participating in hackathons and freelance work, I have gained practical experience in UI/UX design and graphic design. Designing is my passion, and it has allowed me to continue to develop my creative skills and grow in the field.',
+        title: 'Platform Aplication',
+        desc: "As a Cloudops Engineer, I have experience in maintaining servers for several platforms such as WordPress, Magento, Laravel, Codeigniter, NodeJS, Golang, Django, PHP natively. With platform deployed in monolith and microservice like docker and kubernetes",
     },
     {
         id: 3,
-        title: 'Github',
-        desc: "GitHub is essential for version control and collaboration. Its intuitive interface and features like pull requests and issue tracking simplify the process. Continuous integration ensures up-to-date code. GitHub is vital to my success as a developer.",
+        title: 'Tools',
+        desc: 'As a Cloudops Engineer, I am familiar with several tools commonly used by Devops Engineers such as Docker, Jenkins, Grafana, Prometheus, Traefik, Git, Gitlab, Helm, Ansible, Terraform, Buildkite, Cloud Watch.',
     },
     {
         id: 4,
-        title: 'Open Source Contributor',
-        desc: "Open Source is the future. I usually take some time on weekend and contribute into opensource project. It gives me opportunity to learn from best developer's practices and also gives me a chance to help others and contribute into the community for the good.",
+        title: 'Microservice',
+        desc: "As a Cloudops Engineer, I have more than 4 years of experience maintaining platforms as microservices. I use Docker, Docker Compose, Kubernetes. I created my own custom base images for microservices using a registry from DockerHub, Gitlab or Google Registry, AWS Registry, Huawei Registry using service accounts and keys as integration accessibility.",
+    },
+    {
+        id: 5,
+        title: 'Programming language and Framework',
+        desc: "I also have experience as a developer from 2015-2018 with expertise in programming languages ​​such as PHP, Javascript, ReactJS, Shell Script, Yaml, C++, Python. Using the framework Codeigniter, Laravel, NextJs, VueJs, React Native, AngularJs, Django.",
     },
 ]
 
