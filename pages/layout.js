@@ -24,6 +24,26 @@ export default function Layout({ children }) {
           property="og:image"
           content="https://portfolio-andy-setiyawan.vercel.app/images/avatar.png"
         />
+        <link
+          rel="canonical"
+          href="https://portfolio-andy-setiyawan.vercel.app/"
+          key="canonical"
+        />
+        <link
+          rel="canonical"
+          href="https://portfolio-andy-setiyawan.vercel.app/contact"
+          key="canonical"
+        />
+        <link
+          rel="canonical"
+          href="https://portfolio-andy-setiyawan.vercel.app/background"
+          key="canonical"
+        />
+        <link
+          rel="canonical"
+          href="https://portfolio-andy-setiyawan.vercel.app/portfolio"
+          key="canonical"
+        />
       </Head>
       <div className='lg:hidden'>
         <div className=' bg-DeepNightBlack text-LightGray w-full h-10 flex items-center justify-between px-2 lg:hidden relative'>
