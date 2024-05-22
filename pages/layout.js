@@ -10,6 +10,39 @@ export default function Layout({ children }) {
 
   return (
     <div className={`h-screen lg:p-[0.8rem] flex flex-col select-none font-circular`}>
+      <Head>
+        <title>Andy Setiyawan - Portofolio</title>
+        <meta name="description" content="Portofolio Andy Setiyawan. Check This Out!" key="desc" />
+        <meta property="og:title" content="Andy Setiyawan - Portofolio" />
+        <meta
+          property="og:description"
+          content="Cloudops Engineer | Devops Engineer | SRE | Sysadmin | Network engineer | Security Analyst"
+        />
+        <meta
+          property="og:image"
+          content="https://portfolio-andy-setiyawan.vercel.app/images/avatar.png"
+        />
+        <link
+          rel="canonical"
+          href="https://portfolio-andy-setiyawan.vercel.app/"
+          key="canonical"
+        />
+        <link
+          rel="canonical"
+          href="https://portfolio-andy-setiyawan.vercel.app/contact"
+          key="canonical"
+        />
+        <link
+          rel="canonical"
+          href="https://portfolio-andy-setiyawan.vercel.app/background"
+          key="canonical"
+        />
+        <link
+          rel="canonical"
+          href="https://portfolio-andy-setiyawan.vercel.app/portfolio"
+          key="canonical"
+        />
+      </Head>
       <div className='lg:hidden'>
         <div className=' bg-DeepNightBlack text-LightGray w-full h-10 flex items-center justify-between px-2 lg:hidden relative'>
           <div className='icon flex items-center gap-x-2' onClick={(e) => setIntro(!intro)}>
