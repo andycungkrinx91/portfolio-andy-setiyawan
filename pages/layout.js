@@ -3,12 +3,14 @@ import Nav from '../components/Common/Nav/Nav';
 import { FaBars, FaMousePointer } from 'react-icons/fa';
 import { SlOptionsVertical } from 'react-icons/sl';
 import { useState } from 'react';
+import Head from 'next/head';
 
 export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   const [intro, setIntro] = useState(false);
 
   return (
+    
     <div className={`h-screen lg:p-[0.8rem] flex flex-col select-none font-circular`}>
       <Head>
         <title>Andy Setiyawan - Portofolio</title>
