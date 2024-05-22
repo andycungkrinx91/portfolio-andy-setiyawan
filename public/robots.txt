@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://portfolio-andy-setiyawan.vercel.app/
+
+# Sitemaps
+Sitemap: https://portfolio-andy-setiyawan.vercel.app/sitemap.xml
