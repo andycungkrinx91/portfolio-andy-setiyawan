@@ -12,7 +12,7 @@ const Footer = () => {
                     <span>2025 All Rights Reserved | <span className='font-bold'>Andy Setiyawan</span></span>
                 </div>
                 <div className="flex items-center">
-                    <a href='https://github.com/osamajavaid' target="_blank" rel="noreferrer">Thanks Sam for this opensource portofolio template <span className='font-bold'>osamajavaid</span></a>
+                    <a href='https://github.com/osamajavaid' target="_blank" rel="noreferrer">Thanks Osama for this opensource portofolio template <span className='font-bold'>osamajavaid</span></a>
                 </div>
                 <div className="hidden md:flex items-center">
                     <div className="mr-1 text-base">
