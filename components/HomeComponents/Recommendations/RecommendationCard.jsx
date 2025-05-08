@@ -1,11 +1,17 @@
 import React from 'react'
 import CardLayout from '../../Common/CardLayout'
+import Image from "next/image";
 
 const RecommendationCard = ({ data }) => {
     return (
         <CardLayout>
             <div className="p-8 h-full relative card_stylings transition">
-                <img src={data?.image} className="absolute z-10 right-10 -top-5 border-Green w-16 h-16  border-[3px] rounded-full m-0" />
+                <Image
+                    src={data?.image}
+                    alt="emoji"
+                    className="absolute z-10 right-10 -top-5 border-Green w-16 h-16  border-[3px] rounded-full m-0"
+                    loading="lazy"
+                />
                 <div className=" text-Snow underline italic">
                     <a href={data?.linkednURL} target="_blank" rel="noreferrer">{data?.name}</a>
                 </div>

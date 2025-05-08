@@ -4,26 +4,26 @@ export const DESIGNATION = `Cloudops Engineer | Devops Engineer | SRE | Sysadmin
 
 export const DETAILS = {
   Residence: 'Indonesia',
-  City: 'Bandung',
+  City: 'Garut',
   Age: '33',
 };
 
 export const SKILLS = [
   {
     title: 'Cloudops Engineer',
-    level: '90%',
+    level: '85%',
   },
   {
     title: 'Devops Engineer',
-    level: '80%',
+    level: '75%',
   },
   {
     title: 'SRE',
-    level: '85%',
+    level: '80%',
   },
   {
     title: 'Sysadmin',
-    level: '85%',
+    level: '80%',
   },
   {
     title: 'Network engineer',
@@ -35,39 +35,59 @@ export const SKILLS = [
   },
   {
     title: 'Shell script',
-    level: '90%',
+    level: '85%',
   },
   {
     title: 'Docker',
-    level: '90%',
+    level: '85%',
   },
   {
     title: 'Varnish VCL',
-    level: '90%',
+    level: '85%',
   },
   {
     title: 'Kubernetes',
-    level: '88%',
+    level: '78%',
   },
   {
     title: 'Jenkins',
-    level: '82%',
+    level: '77%',
   },
   {
     title: 'Ansible',
     level: '70%',
   },
   {
+    title: 'Terraform',
+    level: '70%',
+  },
+  {
+    title: 'Packer',
+    level: '70%',
+  },
+  {
+    title: 'AI infrastructure',
+    level: '60%',
+  },
+  {
+    title: 'Train AI',
+    level: '40%',
+  },
+  {
+    title: 'Comfyui',
+    level: '50%',
+  },
+  {
     title: 'Helm',
-    level: '88%',
+    level: '78%',
   },
   {
     title: 'Cloudflare',
-    level: '80%',
+    level: '75%',
   },
   {
     title: 'Sucuri',
-    level: '80%',
+    level: '75%',
   },
   {
     title: 'Terraform',
@@ -75,7 +95,7 @@ export const SKILLS = [
   },
   {
     title: 'Buildkite',
-    level: '80%',
+    level: '75%',
   },
   {
     title: 'Gitlab',
@@ -83,7 +103,7 @@ export const SKILLS = [
   },
   {
     title: 'Git',
-    level: '83%',
+    level: '76%',
   },
   {
     title: 'Mikrotik',
@@ -174,6 +194,11 @@ export const CLOUD_PROVIDER = [
 
 export const TECH_STACK = [
   'Jenkins',
+  'Terraform',
+  'Packer',
+  'Llama.cpp',
+  'Comfyui',
+  'AI/ML',
   'Grafana',
   'Cloudflare',
   'Sucuri',

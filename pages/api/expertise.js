@@ -29,6 +29,11 @@ const expertise = [
         title: 'Programming language and Framework',
         desc: "I also have experience as a developer from 2015-2018 with expertise in programming languages ​​such as PHP, Javascript, ReactJS, Shell Script, Yaml, C++, Python. Using the framework Codeigniter, Laravel, NextJs, VueJs, React Native, AngularJs, Django.",
     },
+    {
+        id: 6,
+        title: 'AI/ML',
+        desc: "I also have high interest in AI/ML for building Chat AI, Image Generator AI, Train AI using python with Llama.cpp",
+    },
 ]
 
 export default function handler(req, res) {

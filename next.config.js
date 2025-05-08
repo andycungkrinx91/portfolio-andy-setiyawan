@@ -8,7 +8,4 @@ module.exports = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
-  images: {
-    domains: ['portfolio-andy-setiyawan.vercel.app'], // add your image source here
-  },
 }

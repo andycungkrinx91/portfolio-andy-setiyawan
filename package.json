@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/compress-images.js",
-    "build": "next build",
+    "build": "node scripts/compress-images.js && next build",
     "start": "next start",
     "lint": "next lint",
     "postbuild": "next-sitemap"
@@ -24,7 +23,7 @@
     "react-query": "^3.39.3",
     "react-scroll": "^1.8.9",
     "sass": "^1.64.2",
-    "sharp": "^0.33.4",
+    "sharp": "^0.33.5",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
