@@ -13,8 +13,8 @@ export default function Layout({ children }) {
     
     <div className={`h-screen lg:p-[0.8rem] flex flex-col select-none font-circular`}>
       <Head>
-        <title>Andy Setiyawan - Portofolio</title>
-        <meta name="description" content="Portofolio Andy Setiyawan. Check This Out!" key="desc" />
+        <title>Andy Setiyawan - Portofolio - Cloudops Engineer - Devops Engineer</title>
+        <meta name="description" content="Portofolio Andy Setiyawan. Check This Out! I have experience in position Cloudops Engineer, Devops Engineer, Site Reliability Engineering, Sysadmin, Network engineer, Security Analyst" key="desc" />
         <meta property="og:title" content="Andy Setiyawan - Portofolio" />
         <meta
           property="og:description"
