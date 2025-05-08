@@ -20,7 +20,7 @@ This website is fully responsive personal portfolio, <br />Responsive for all de
 
 ### Demo Screeshots
 
-![Andy Portfolio Desktop Demo](./public/readme-images/portfolio.png "Desktop Demo")
+![Andy Portfolio Desktop Demo](./public/compressed/portfolio.webp "Desktop Demo")
 
 ### Prerequisites
 

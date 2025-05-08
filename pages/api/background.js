@@ -21,12 +21,12 @@ const background = [
         expCards: [
             {
                 id: 1,
-                title: 'Sirclo (PT Lingkar Niaga Solusindo)',
+                title: 'Icube by Sirclo',
                 role: 'Cloudops Engineer',
                 url: 'https://www.sirclo.com/',
                 desc: 'Research for new technology stack, Maintain CI/CD template for Kubernetes in GCP, Maintain server in AWS, Maintain configuration of server when have update, Maintain core image Swift and Oms (dockerize base for all project Swift and Oms), Cover team when have issue 1x24 hours, Help developer for bug fixing.',
                 year: '11/2019 - Present',
-                location: 'Tangerang Regency, Banten, Indonesia'
+                location: 'Yogyakarta, Indonesia'
             },
             {
                 id: 2,

@@ -12,7 +12,8 @@ const Portfolio = () => {
     const { isLoading, error, data } = useQuery('portfolio', () =>
         axios.get('api/portfolio')
             .then(({ data }) => data)
-            .catch(error => console.error('Error fetching testimonials:', error)))
+            .catch(error => console.error('Error fetching testimonials:', error)));
+    const sortedProjects = data ? [...data].sort((a, b) => b.id - a.id) : [];
     return (
         <BannerLayout>
             <div className="grid justify items-center grid-flow-row md:grid-cols-2 grid-rows-auto gap-4 px-8 my-6">
@@ -23,8 +24,8 @@ const Portfolio = () => {
                             <ImageAndParagraphSkeleton className={"w-full object-cover"} />
                         ))
                         :
-                        data?.map((data, key) => (
-                            <PortfolioCard key={key} data={data} />
+                        sortedProjects.map((project) => (
+                            <PortfolioCard key={project.id} data={project} />
                         ))
 
                 }

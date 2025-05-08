@@ -22,7 +22,7 @@ export default function Layout({ children }) {
         />
         <meta
           property="og:image"
-          content="https://portfolio-andy-setiyawan.vercel.app/images/avatar.png"
+          content="https://portfolio-andy-setiyawan.vercel.app/compressed/avatar.webp"
         />
         <link
           rel="canonical"
