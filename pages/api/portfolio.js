@@ -971,8 +971,10 @@ const portfolio = [
                 tech: "Cloudflare"
             },
         ]
-    },
-]
+    }
+];
+
 export default function handler(req, res) {
-    res.status(200).json(portfolio)
+    const sortedPortfolio = portfolio.sort((a, b) => b.id - a.id);
+    res.status(200).json(sortedPortfolio);
 }

@@ -23,6 +23,7 @@ const Banner = () => {
                                                         ['Cloudops Engineer',
                                                             'Devops Engineer',
                                                             'SRE',
+                                                            'AI Explorer',
                                                             'Sysadmin',
                                                             'Network Engineer',
                                                             'Security Analyst'],
@@ -42,6 +43,7 @@ const Banner = () => {
                                 alt="emoji"
                                 className='absolute top-8 w-full h-full'
                                 loading="lazy"
+                                fill
                             />
                         </div>
                     </div>
