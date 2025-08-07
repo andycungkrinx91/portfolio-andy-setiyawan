@@ -1,32 +1,37 @@
 export const NAME = 'Andy Setiyawan';
 
-export const DESIGNATION = `Cloudops Engineer | Devops Engineer | SRE | Sysadmin | Network engineer | Security Analyst`;
+export const DESIGNATION = `Cloudops Engineer | Devops Engineer | AI Explorer | SRE | Sysadmin | Network engineer | Security Analyst`;
+
+export const CONTACTS = {
+  EMAIL: 'andy.silva270114@gmail.com',
+  PHONE: '+6283822000035',
+};
 
 export const DETAILS = {
   Residence: 'Indonesia',
-  City: 'Garut',
-  Age: '33',
+  City: 'Garut, West Java',
+  Age: 34,
 };
 
 export const SKILLS = [
   {
-    title: 'Cloudops Engineer',
+    title: 'CloudOps Engineer',
     level: '85%',
-  },
-  {
-    title: 'Devops Engineer',
-    level: '75%',
   },
   {
     title: 'SRE',
     level: '80%',
   },
   {
-    title: 'Sysadmin',
+    title: 'SysAdmin',
     level: '80%',
   },
   {
-    title: 'Network engineer',
+    title: 'DevOps Engineer',
+    level: '75%',
+  },
+  {
+    title: 'Network Engineer',
     level: '70%',
   },
   {
@@ -34,202 +39,200 @@ export const SKILLS = [
     level: '70%',
   },
   {
-    title: 'Shell script',
-    level: '85%',
-  },
-  {
-    title: 'Docker',
-    level: '85%',
-  },
-  {
-    title: 'Varnish VCL',
-    level: '85%',
-  },
-  {
-    title: 'Kubernetes',
-    level: '78%',
-  },
-  {
-    title: 'Jenkins',
-    level: '77%',
-  },
-  {
-    title: 'Ansible',
-    level: '70%',
-  },
-  {
-    title: 'Terraform',
-    level: '70%',
-  },
-  {
-    title: 'Packer',
-    level: '70%',
-  },
-  {
-    title: 'AI infrastructure',
+    title: 'AI Explorer',
     level: '60%',
-  },
-  {
-    title: 'Train AI',
-    level: '40%',
-  },
-  {
-    title: 'Comfyui',
-    level: '50%',
-  },
-  {
-    title: 'Helm',
-    level: '78%',
-  },
-  {
-    title: 'Cloudflare',
-    level: '75%',
-  },
-  {
-    title: 'Sucuri',
-    level: '75%',
-  },
-  {
-    title: 'Terraform',
-    level: '52%',
-  },
-  {
-    title: 'Buildkite',
-    level: '75%',
-  },
-  {
-    title: 'Gitlab',
-    level: '70%',
-  },
-  {
-    title: 'Git',
-    level: '76%',
-  },
-  {
-    title: 'Mikrotik',
-    level: '62%',
-  },
-  {
-    title: 'Sonarqube',
-    level: '75%',
-  },
-  {
-    title: 'ZAP Scanner',
-    level: '75%',
-  },
-  {
-    title: 'Elasticsearch',
-    level: '50%',
-  },
-  {
-    title: 'Rabbitmq',
-    level: '50%',
-  },
-  {
-    title: 'Mysql',
-    level: '58%',
-  },
-  {
-    title: 'MongoDB',
-    level: '40%',
-  },
-  {
-    title: 'SQLlite',
-    level: '40%',
-  },
-  {
-    title: 'PosgreSQL',
-    level: '40%',
-  },
-  {
-    title: 'Zimbra',
-    level: '50%',
-  },
-  {
-    title: 'Redis',
-    level: '68%',
-  },
-  {
-    title: 'Python',
-    level: '54%',
-  },
-  {
-    title: 'AngularJs',
-    level: '50%',
-  },
-  {
-    title: 'PHP',
-    level: '60%',
-  },
-  {
-    title: 'Magento',
-    level: '70%',
-  },
-  {
-    title: 'Codeigniter',
-    level: '50%',
-  },
-  {
-    title: 'Laravel',
-    level: '50%',
-  },
-  {
-    title: 'Wordpress',
-    level: '50%',
-  },
-
+  }
 ];
 
-export const CLOUD_PROVIDER = [
+export const CLOUD_PROVIDERS = [
   'AWS',
+  'Azure',
+  'DigitalOcean',
   'GCP',
-  'Huawei Cloud',
-  'Digitalocean',
-  'Linode',
-  'Rumahweb',
   'Hostinger',
+  'Huawei Cloud',
+  'Linode',
+  'On-Premises',
+  'Rumahweb',
   'Vercel',
-  'Inpremis Server'
+  'Vultr',
 ];
 
-export const TECH_STACK = [
-  'Jenkins',
-  'Terraform',
-  'Packer',
-  'Llama.cpp',
-  'Comfyui',
-  'AI/ML',
-  'Grafana',
-  'Cloudflare',
-  'Sucuri',
-  'Helm',
-  'Ansible',
-  'Terraform',
-  'Buildkite',
+export const ORCHESTRATION_TOOLS = [
+  'buildah',
   'Docker',
-  'Git',
-  'GitHub',
-  'MySQL',
-  'JavaScript',
-  'ReactJS',
-  'NextJS',
-  'NodeJS',
-  'AngularJs',
-  'CSS',
-  'Material UI',
-  'MongoDB',
+  'Docker Compose',
+  'Kubernetes',
+  'LXC',
+  'Podman',
 ];
 
-export const CONTACTS = {
-  EMAIL: 'andy.silva270114@gmail.com',
-  PHONE: '+6283822000035',
-};
+export const AUTOMATION_TOOLS = [
+  'Ansible',
+  'Buildkite',
+  'Helm',
+  'Jenkins',
+  'Packer',
+  'Terraform',
+];
+
+export const AI_ML_TOOLS = [
+  'ChatGPT',
+  'ComfyUI',
+  'Google AI',
+  'Hugging Face',
+  'LangFlow',
+  'LibreChat',
+  'Llama.cpp',
+  'LocalAI',
+  'LocalAGI',
+  'N8N',
+  'Ollama',
+  'OpenAI',
+  'OpenRouter',
+  'OpenWebUI',
+  'Stable Diffusion',
+];
+
+export const DATABASES_MESSAGING = [
+  'Elasticsearch',
+  'Faiss',
+  'MongoDB',
+  'MySQL',
+  'PostgreSQL',
+  'Qdrant',
+  'RabbitMQ',
+  'SQLite',
+];
+
+export const PROGRAMMING_SCRIPTING_LANGUAGES = [
+  'C++',
+  'JavaScript',
+  'PHP',
+  'Python',
+  'Shell Script',
+  'Visual Basic',
+];
+
+export const FRAMEWORK = [
+  'CodeIgniter',
+  'FastAPI',
+  'Laravel',
+  'NextJS', 
+  'NuxtJS',
+  'React Native', 
+  'Streamlit',
+];
+
+export const CDN_PROXY = [
+  'Cloudflare',
+  'CloudFront',
+  'EdgeNext',
+  'HAProxy',
+  'Nginx',
+  'Sucuri',
+  'Thumbor',
+  'Traefik',
+  'Varnish',
+];
+
+export const CLOUD_STORAGE = [
+  'AWS S3',
+  'DigitalOcean Spaces',
+  'GCP Storage',
+  'Linode Object Storage',
+  'Huawei Cloud OBS',
+  'MinIO',
+  'NFS Server',
+];
+
+export const MONITORING_OBSERVABILITY = [
+  'Datadog',
+  'ELK Stack',
+  'Grafana',
+  'Loki',
+  'Nagios',
+  'New Relic',
+  'Prometheus',
+  'Sentry',
+  'SkyWalking',
+  'SonarQube',
+  'Splunk',
+  'Uptime Kuma',
+  'Uptime Robot',
+  'Zabbix',
+];
+
+export const NETWORK_SECURITY_TOOLS = [
+  'Cloudflare WAF',
+  'Fail2Ban',
+  'Honeynet',
+  'IPSec',
+  'IPTables',
+  'Metasploit',
+  'Mikrotik',
+  'ModSecurity',
+  'Nmap',
+  'OpenVPN',
+  'OWASP ZAP',
+  'pfSense',
+  'Scrapy',
+  'Snort',
+  'Suricata',
+  'WireGuard',
+];
+
+export const OS_DISTRO = [
+  'Alpine Linux',
+  'Arch Linux',
+  'Armbian',
+  'Back Track',
+  'BlackArch',
+  'CentOS',
+  'Ubuntu',
+  'Debian',
+  'Fedora',
+  'FreeBSD',
+  'Kali Linux',
+  'Linux Mint',
+  'Manjaro',
+  'OpenBSD',
+  'OpenSUSE',
+  'Red Hat',
+  'RouterOS',
+  'Windows',
+];
+
+export const CMS = [
+  'Drupal',
+  'Joomla',
+  'Magento',
+  'OpenCart',
+  'PrestaShop',
+  'Shopify',
+  'WooCommerce',
+  'WordPress',
+];
+
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/andycungkrinx91',
   LINKEDIN: 'https://www.linkedin.com/in/andy-setiyawan-452396170/',
-  TWITTER: 'https://x.com/AndyCungkrinx',
-  FACEBOOK: 'https://www.facebook.com/dbreakingheart.mazta',
-  GITLAB: 'https://gitlab.com/andycungkrinx/',
   INSTAGRAM: 'https://www.instagram.com/andy.silva270114/',
   TELEGRAM: 'https://t.me/AndyCungkrinx91',
 };
+
+export const TECH_STACK_SECTIONS = [
+  { title: 'Cloud Platforms', items: CLOUD_PROVIDERS },
+  { title: 'Containerization & Orchestration', items: ORCHESTRATION_TOOLS },
+  { title: 'Monitoring & Observability', items: MONITORING_OBSERVABILITY },
+  { title: 'CI/CD & Automation(IaC)', items: AUTOMATION_TOOLS },
+  { title: 'Operating Systems', items: OS_DISTRO },
+  { title: 'AI/ML Tools', items: AI_ML_TOOLS },
+  { title: 'Databases & Messaging', items: DATABASES_MESSAGING },
+  { title: 'Programming Language & Script', items: PROGRAMMING_SCRIPTING_LANGUAGES },
+  { title: 'Frameworks', items: FRAMEWORK },
+  { title: 'CDN & Proxy', items: CDN_PROXY },
+  { title: 'Cloud Storage', items: CLOUD_STORAGE },
+  { title: 'Network & Security', items: NETWORK_SECURITY_TOOLS },
+  { title: 'CMS', items: CMS },
+];

@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import Footer from '../components/Footer';
 import Banner from '../components/HomeComponents/Banner';
 import MyExpertise from '../components/HomeComponents/Expertise/MyExpertise';

@@ -1,4 +1,3 @@
-import React from 'react'
 import CardLayout from '../Common/CardLayout'
 
 const Exp_Card = ({ data }) => {

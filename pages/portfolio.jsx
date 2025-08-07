@@ -1,39 +1,42 @@
-import { useState } from "react";
 import { useQuery } from "react-query";
+import axios from "axios";
+import Image from "next/image";
 import BannerLayout from "../components/Common/BannerLayout";
 import Footer from "../components/Footer";
-import PortfolioCard from "../components/Portfolio/PortfolioCard";
-import axios from "axios";
-import { Skeleton } from "antd";
 import ImageAndParagraphSkeleton from "../components/Common/ImageAndParagraphSkeleton";
+import Link from "next/link";
 
 const Portfolio = () => {
+    const { isLoading, data } = useQuery('portfolio', () => axios.get('api/portfolio').then(res => res.data));
 
-    const { isLoading, error, data } = useQuery('portfolio', () =>
-        axios.get('api/portfolio')
-            .then(({ data }) => data)
-            .catch(error => console.error('Error fetching testimonials:', error)));
-    const sortedProjects = data ? [...data].sort((a, b) => b.id - a.id) : [];
     return (
         <BannerLayout>
-            <div className="grid justify items-center grid-flow-row md:grid-cols-2 grid-rows-auto gap-4 px-8 my-6">
-
-                {
-                    isLoading ?
-                        [1, 2, 3, 4].map(() => (
-                            <ImageAndParagraphSkeleton className={"w-full object-cover"} />
-                        ))
-                        :
-                        sortedProjects.map((project) => (
-                            <PortfolioCard key={project.id} data={project} />
-                        ))
-
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 pb-2 pt-10">
+                {isLoading ?
+                    [1, 2, 3, 4, 5, 6].map((_, i) => (
+                        <ImageAndParagraphSkeleton key={i} className={"p-6"} />
+                    ))
+                    :
+                    data?.map(item => (
+                        <Link key={item.id} href={item.url} target="_blank" className="card_stylings_2">
+                            <div className="relative h-60">
+                                <Image src={item.image} alt={item.projectName} fill className="object-cover rounded-t-lg" />
+                            </div>
+                            <div className="p-4">
+                                <h2 className="text-lg font-bold text-Snow">{item.projectName}</h2>
+                                <p className="text-sm text-LightGray mt-2">{item.projectDetail}</p>
+                                <div className="flex flex-wrap gap-2 mt-4">
+                                    {item.technologiesUsed.map(tech => (
+                                        <span key={tech.tech} className="text-xs bg-Green/10 text-Green px-2 py-1 rounded-full">{tech.tech}</span>
+                                    ))}
+                                </div>
+                            </div>
+                        </Link>
+                    ))
                 }
-
-
-            </div >
+            </div>
             <Footer />
-        </BannerLayout >
+        </BannerLayout>
     );
 };
 

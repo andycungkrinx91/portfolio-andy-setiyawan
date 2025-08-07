@@ -17,8 +17,8 @@ const MyExpertise = () => {
 
                 {
                     isLoading ?
-                        [1, 2, 3, 4, 5, 6].map(() => (
-                            <ParagraphSkeleton className={"space-y-2 p-8"} />
+                        [1, 2, 3, 4, 5, 6].map((_, i) => (
+                            <ParagraphSkeleton key={i} className={"space-y-2 p-8"} />
                         ))
                         :
                         data?.map((data, key) => (

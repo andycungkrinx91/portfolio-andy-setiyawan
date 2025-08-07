@@ -2,7 +2,7 @@ const expertise = [
     {
         id: 0,
         title: 'Cloud Computing and Hosting',
-        desc: 'As a Cloudops Engineer, I have more than 4 years of experience maintaining AWS, GCP, Digitalocean, Linode, Huawei cloud and on-premise servers. I can be placed in the position of Cloudops Engineer, Devops Engineer, SRE, Sysadmin, Network Engineer and Security Analyst',
+        desc: "I'm a CloudOps Engineer with over 5 years of experience designing, managing, and optimizing highly scalable server infrastructure. I have expertise in both cloud environments (GCP, AWS, Huawei Cloud, DigitalOcean, Linode) and on-premise systems. I'm proficient in operational automation, implementing CI/CD pipelines (Jenkins, Buildkite), system monitoring, and cross-functional collaboration throughout the entire software development lifecycle. I am committed to continuous learning and implementing new technologies, with a special interest in AI infrastructure engineering. In this area, I apply DevSecOps principles to build efficient and secure environments for AI model deployment, all while ensuring data privacy is maintained.",
     },
     {
         id: 1,
@@ -27,7 +27,7 @@ const expertise = [
     {
         id: 5,
         title: 'Programming language and Framework',
-        desc: "I also have experience as a developer from 2015-2018 with expertise in programming languages ​​such as PHP, Javascript, ReactJS, Shell Script, Yaml, C++, Python. Using the framework Codeigniter, Laravel, NextJs, VueJs, React Native, AngularJs, Django.",
+        desc: "I also have experience as a developer from 2015-2018 with expertise in programming languages such as PHP, Javascript, ReactJS, Shell Script, Yaml, C++, Python. Using the framework Codeigniter, Laravel, NextJs, VueJs, React Native, AngularJs, Django.",
     },
     {
         id: 6,
