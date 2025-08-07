@@ -5,6 +5,7 @@ import { SlOptionsVertical } from 'react-icons/sl';
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +17,12 @@ export default function Layout({ children }) {
     
     <div className={`h-screen lg:p-[0.8rem] flex flex-col select-none font-circular`}>
       <Head>
-        <title>Andy Setiyawan - Portofolio - Cloudops Engineer - Devops Engineer</title>
-        <meta name="description" content="I'm a seasoned CloudOps Engineer with over 5 years of experience designing, managing, and optimizing highly scalable server infrastructure. I have expertise in both cloud environments (GCP, AWS, Huawei Cloud, DigitalOcean, Linode) and on-premise systems. I'm proficient in operational automation, implementing CI/CD pipelines (Jenkins, Buildkite), system monitoring, and cross-functional collaboration throughout the entire software development lifecycle. I am committed to continuous learning and implementing new technologies, with a special interest in AI infrastructure engineering. In this area, I apply DevSecOps principles to build efficient and secure environments for AI model deployment, all while ensuring data privacy is maintained." key="desc" />
-        <meta property="og:title" content="Andy Setiyawan - Portofolio" />
+        <title>Andy Setiyawan | CloudOps & DevOps Engineer Portfolio</title>
+        <meta name="description" content="I'm Andy Setiyawan, a CloudOps & DevOps Engineer with 5+ years of experience in GCP, AWS, and Kubernetes. Specializing in IaC, CI/CD, and AI infrastructure. Explore my portfolio." key="desc" />
+        <meta property="og:title" content="Andy Setiyawan | CloudOps & DevOps Engineer Portfolio" />
         <meta
           property="og:description"
-          content="I'm a seasoned CloudOps Engineer with over 5 years of experience designing, managing, and optimizing highly scalable server infrastructure. I have expertise in both cloud environments (GCP, AWS, Huawei Cloud, DigitalOcean, Linode) and on-premise systems. I'm proficient in operational automation, implementing CI/CD pipelines (Jenkins, Buildkite), system monitoring, and cross-functional collaboration throughout the entire software development lifecycle. I am committed to continuous learning and implementing new technologies, with a special interest in AI infrastructure engineering. In this area, I apply DevSecOps principles to build efficient and secure environments for AI model deployment, all while ensuring data privacy is maintained."
+          content="I'm Andy Setiyawan, a CloudOps & DevOps Engineer with 5+ years of experience in GCP, AWS, and Kubernetes. Specializing in IaC, CI/CD, and AI infrastructure. Explore my portfolio."
         />
         <meta
           property="og:image"
@@ -76,6 +77,7 @@ export default function Layout({ children }) {
         </div>
         {<Nav isOpen={isOpen} setIsOpen={setIsOpen} />}
       </div>
+      <Analytics />
     </div>
   );
 }
