@@ -3,10 +3,15 @@ import { FaGithub, FaLinkedin, FaInstagram, FaTelegram } from 'react-icons/fa';
 import { SiGmail } from "react-icons/si";
 import Footer from '../components/Footer';
 import { NAME, CONTACTS, DETAILS, SOCIAL_LINKS } from '../constants/constants';
+import Head from 'next/head';
 
 const Contact = () => {
     return (
         <BannerLayout>
+            <Head>
+                <title>Contact | Andy Setiyawan</title>
+                <meta name="description" content="Get in touch with me. Contact me for collaborations, opportunities, or any inquiries regarding CloudOps, DevOps, or AI infrastructure." key="desc" />
+            </Head>
             <div className=" px-4 py-2">
                 <div className="my-6 text-Snow flex flex-col gap-y-5">
                     <h1 className='text-lg font-bold'>Contact Information</h1>

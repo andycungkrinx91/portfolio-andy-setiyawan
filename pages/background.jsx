@@ -6,6 +6,7 @@ import BannerLayout from "../components/Common/BannerLayout";
 import Footer from "../components/Footer";
 import { useQuery } from "react-query";
 import axios from "axios";
+import Head from "next/head";
 import ParagraphSkeleton from "../components/Common/ParagraphSkeleton";
 
 function Background() {
@@ -21,10 +22,14 @@ function Background() {
     
     return (
         <BannerLayout>
+            <Head>
+                <title>Background & Experience | Andy Setiyawan</title>
+                <meta name="description" content="Explore the professional background, work experience, education, and certifications of Andy Setiyawan, a CloudOps and DevOps Engineer." key="desc" />
+            </Head>
             <div className="grid md:grid-cols-2 md:divide-x-4 md:divide-Green px-4 pb-2 pt-10">
                 <div className="flex flex-col gap-y-10 order-2 md:order-1 md:mr-12">
                     <div>
-                        <div className="text-xl text-Snow font-semibold">Education</div>
+                        <h2 className="text-xl text-Snow font-semibold">Education</h2>
                         <div className="flex flex-col gap-y-4 mt-4">
                             {isLoading ?
                                 [1, 2].map((_, i) => (
@@ -38,7 +43,7 @@ function Background() {
                         </div>
                     </div>
                     <div>
-                        <div className="text-xl text-Snow font-semibold">Certifications</div>
+                        <h2 className="text-xl text-Snow font-semibold">Certifications</h2>
                         <div className="flex flex-col gap-y-4 mt-4">
                             {isLoading ?
                                 [1, 2, 3].map((_, key) => (
@@ -52,7 +57,7 @@ function Background() {
                         </div>
                     </div>
                     <div>
-                        <div className="text-xl text-Snow font-semibold">Personal Projects</div>
+                        <h2 className="text-xl text-Snow font-semibold">Personal Projects</h2>
                         <div className="flex flex-col gap-y-4 mt-4">
                             {isLoading ?
                                 [1, 2, 3].map((_, key) => (
@@ -68,7 +73,7 @@ function Background() {
                 </div>
                 <div className="order-1 md:order-2">
                     <div className="flex flex-col gap-y-4 md:ml-12">
-                        <div className=" md:pt-0 pt-4 text-xl text-Snow font-semibold">Experience</div>
+                        <h2 className=" md:pt-0 pt-4 text-xl text-Snow font-semibold">Experience</h2>
 
                         {isLoading ?
                             [1, 2, 3].map((_, i) => (

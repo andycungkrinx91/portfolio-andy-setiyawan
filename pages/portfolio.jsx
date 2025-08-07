@@ -5,12 +5,17 @@ import BannerLayout from "../components/Common/BannerLayout";
 import Footer from "../components/Footer";
 import ImageAndParagraphSkeleton from "../components/Common/ImageAndParagraphSkeleton";
 import Link from "next/link";
+import Head from "next/head";
 
 const Portfolio = () => {
     const { isLoading, data } = useQuery('portfolio', () => axios.get('api/portfolio').then(res => res.data));
 
     return (
         <BannerLayout>
+            <Head>
+                <title>Portfolio | Andy Setiyawan</title>
+                <meta name="description" content="Browse a selection of projects managed and developed by Andy Setiyawan, showcasing expertise in cloud infrastructure, DevOps, and web technologies." key="desc" />
+            </Head>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 pb-2 pt-10">
                 {isLoading ?
                     [1, 2, 3, 4, 5, 6].map((_, i) => (
