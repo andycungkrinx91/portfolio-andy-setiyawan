@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -78,6 +79,7 @@ export default function Layout({ children }) {
         {<Nav isOpen={isOpen} setIsOpen={setIsOpen} />}
       </div>
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
