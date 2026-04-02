@@ -4,14 +4,14 @@ import { MdMail } from 'react-icons/md'
 const Footer = () => {
     return (
         <div id='intro' className="mt-4 mb-10 lg:mb-0">
-            <div className="flex h-10 items-center justify-between text-xs font-normal text-LightGray py-4 px-2 md:px-4 w-full bg-MidNightBlack">
+            <div className="flex flex-col sm:flex-row h-auto sm:h-10 items-center justify-between text-xs font-normal text-LightGray py-4 px-2 md:px-4 w-full bg-MidNightBlack gap-2">
                 <div className='flex items-center'>
                     <div className="mr-1 text-base">
                         <AiFillCopyrightCircle />
                     </div>
                     <span>2025 All Rights Reserved | <span className='font-bold'>Andy Setiyawan</span></span>
                 </div>
-                <div className="flex items-center">
+                <div className="hidden lg:flex items-center">
                     <a href='https://github.com/osamajavaid' target="_blank" rel="noreferrer">Thanks Osama for this opensource portofolio template <span className='font-bold'>osamajavaid</span></a>
                 </div>
                 <div className="hidden md:flex items-center">

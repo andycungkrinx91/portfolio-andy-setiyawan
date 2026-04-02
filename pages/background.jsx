@@ -4,16 +4,17 @@ import Certification_Card from "../components/Background/Certification_Card";
 import Project_Card from "../components/Background/Project_Card";
 import BannerLayout from "../components/Common/BannerLayout";
 import Footer from "../components/Footer";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import Head from "next/head";
 import ParagraphSkeleton from "../components/Common/ParagraphSkeleton";
 
 function Background() {
 
-    const { isLoading, isError, error, data } = useQuery('background', () =>
-        axios.get('api/background').then(res => res.data)
-    );
+    const { isLoading, isError, error, data } = useQuery({
+        queryKey: ['background'],
+        queryFn: () => axios.get('api/background').then(res => res.data)
+    });
 
     if (isError) {
         console.error('Error fetching background data:', error);

@@ -18,12 +18,12 @@ export default function Layout({ children }) {
     
     <div className={`h-screen lg:p-[0.8rem] flex flex-col select-none font-circular`}>
       <Head>
-        <title>Andy Setiyawan | CloudOps & DevOps Engineer Portfolio</title>
-        <meta name="description" content="I'm Andy Setiyawan, a CloudOps & DevOps Engineer with 5+ years of experience in GCP, AWS, and Kubernetes. Specializing in IaC, CI/CD, and AI infrastructure. Explore my portfolio." key="desc" />
-        <meta property="og:title" content="Andy Setiyawan | CloudOps & DevOps Engineer Portfolio" />
+        <title>Andy Setiyawan | Cloud Engineer & DevOps Engineer Portfolio</title>
+        <meta name="description" content="I'm Andy Setiyawan, a Cloud Engineer & DevOps Engineer with 5+ years of experience in GCP, AWS, and Kubernetes. Specializing in IaC, CI/CD, and AI infrastructure. Explore my portfolio." key="desc" />
+        <meta property="og:title" content="Andy Setiyawan | Cloud Engineer & DevOps Engineer Portfolio" />
         <meta
           property="og:description"
-          content="I'm Andy Setiyawan, a CloudOps & DevOps Engineer with 5+ years of experience in GCP, AWS, and Kubernetes. Specializing in IaC, CI/CD, and AI infrastructure. Explore my portfolio."
+          content="I'm Andy Setiyawan, a Cloud Engineer & DevOps Engineer with 5+ years of experience in GCP, AWS, and Kubernetes. Specializing in IaC, CI/CD, and AI infrastructure. Explore my portfolio."
         />
         <meta
           property="og:image"
@@ -32,17 +32,17 @@ export default function Layout({ children }) {
         <link rel="canonical" href={canonicalUrl} key="canonical" />
       </Head>
       <div className='lg:hidden'>
-        <div className=' bg-DeepNightBlack text-LightGray w-full h-10 flex items-center justify-between px-2 lg:hidden relative'>
-          <button type="button" aria-label="Open user intro" className='icon flex items-center gap-x-2' onClick={(e) => setIntro(!intro)}>
-            <span className='icon border-2 text-Green border-Green p-1 text-sm rounded-lg'>
+        <div className=' bg-DeepNightBlack text-LightGray w-full h-14 flex items-center justify-between px-3 lg:hidden relative'>
+          <button type="button" aria-label="Open user intro" className='icon flex items-center gap-x-2 min-w-[44px] min-h-[44px] justify-center' onClick={(e) => setIntro(!intro)}>
+            <span className='icon border-2 text-Green border-Green p-2 text-sm rounded-lg'>
               <SlOptionsVertical />
             </span>
             <div className='text-Snow absolute -right-1 -bottom-1'>
               <FaMousePointer />
             </div>
           </button>
-          <button type="button" aria-label="Open navigation menu" className='icon flex items-center gap-x-2' onClick={(e) => setIsOpen(!isOpen)}>
-            <span className='icon border-2 text-Green border-Green p-1 text-sm rounded-lg'>
+          <button type="button" aria-label="Open navigation menu" className='icon flex items-center gap-x-2 min-w-[44px] min-h-[44px] justify-center' onClick={(e) => setIsOpen(!isOpen)}>
+            <span className='icon border-2 text-Green border-Green p-2 text-sm rounded-lg'>
               {' '}
               <FaBars />
             </span>
@@ -61,7 +61,7 @@ export default function Layout({ children }) {
         {intro && <div onClick={(e) => setIntro(false)} className='fixed top-0 left-0  w-full h-full bg-black/50 backdrop-blur-[2px] z-40'></div>}
 
         {/* middle of screen */}
-        <div className='w-full h-auto lg:w-9/12 shadow-2xl bg-DeepNightBlack relative overflow-auto overflow-x-hidden no-scrollbar'>{children}</div>
+        <div className='w-full h-full lg:w-9/12 shadow-2xl bg-DeepNightBlack relative overflow-y-auto overflow-x-hidden no-scrollbar'>{children}</div>
 
         {/* right side */}
         {/* right side */}

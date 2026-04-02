@@ -1,8 +1,8 @@
 const expertise = [
     {
         id: 0,
-        title: 'Cloud Computing and Hosting',
-        desc: "I'm a CloudOps Engineer with over 5 years of experience designing, managing, and optimizing highly scalable server infrastructure. I have expertise in both cloud environments (GCP, AWS, Huawei Cloud, DigitalOcean, Linode) and on-premise systems. I'm proficient in operational automation, implementing CI/CD pipelines (Jenkins, Buildkite), system monitoring, and cross-functional collaboration throughout the entire software development lifecycle. I am committed to continuous learning and implementing new technologies, with a special interest in AI infrastructure engineering. In this area, I apply DevSecOps principles to build efficient and secure environments for AI model deployment, all while ensuring data privacy is maintained.",
+        title: 'Cloud Infrastructure',
+        desc: "DevOps / SRE Engineer with 5+ years of experience building and managing production-grade infrastructure across multi-cloud environments (AWS, GCP, Huawei Cloud, DigitalOcean, Linode) and on-premise systems. Specialized in designing scalable, reliable, and secure systems through automation, infrastructure as code, and strong observability practices. Experienced in CI/CD implementation, monitoring, and incident response, often acting as an escalation point for critical production issues. Apply DevSecOps principles to strengthen system security, including infrastructure hardening, attack mitigation, and incident response in production environments. Experienced in AI infrastructure, including deploying LLM inference services (vLLM), building API layers for embedding and reranking, and managing vector databases such as Qdrant to support reliable and high-performance AI workloads. Passionate about building resilient, secure, and scalable systems at the intersection of infrastructure, security, and emerging technologies.",
     },
     {
         id: 1,
@@ -11,7 +11,7 @@ const expertise = [
     },
     {
         id: 2,
-        title: 'Platform Aplication',
+        title: 'Platform Application',
         desc: "As a Cloudops Engineer, I have experience in maintaining servers for several platforms such as WordPress, Magento, Laravel, Codeigniter, NodeJS, Golang, Django, PHP natively. With platform deployed in monolith and microservice like docker and kubernetes",
     },
     {
@@ -31,8 +31,8 @@ const expertise = [
     },
     {
         id: 6,
-        title: 'AI/ML',
-        desc: "I also have high interest in AI/ML for building Chat AI, Image Generator AI, Train AI using python with Llama.cpp",
+        title: 'AI Infrastructure Engineer',
+        desc: "I also have high interest in AI Infrastructure, and have experience in deploying LLM inference services (vLLM), building API layers for embedding and reranking, and managing vector databases such as Qdrant to support reliable and high-performance AI workloads.",
     },
 ]
 

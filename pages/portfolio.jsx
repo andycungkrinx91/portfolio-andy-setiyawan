@@ -1,4 +1,4 @@
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import Image from "next/image";
 import BannerLayout from "../components/Common/BannerLayout";
@@ -8,7 +8,10 @@ import Link from "next/link";
 import Head from "next/head";
 
 const Portfolio = () => {
-    const { isLoading, data } = useQuery('portfolio', () => axios.get('api/portfolio').then(res => res.data));
+    const { isLoading, data } = useQuery({
+        queryKey: ['portfolio'],
+        queryFn: () => axios.get('api/portfolio').then(res => res.data)
+    });
 
     return (
         <BannerLayout>

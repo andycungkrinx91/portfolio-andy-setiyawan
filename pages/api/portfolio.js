@@ -454,7 +454,7 @@ const portfolio = [
                 tech: "Android"
             },
             {
-                tech: "IOS"
+                tech: "iOS"
             },
             {
                 tech: "Flutter"
@@ -490,10 +490,10 @@ const portfolio = [
     },
     {
         id: 22,
-        projectName: "Lottemartmall",
-        url: "https://medbiz.id/",
+        projectName: "Lottemart",
+        url: "https://www.lottemart.co.id/",
         image: "/compressed/lottemart.webp",
-        projectDetail: "LOTTE Mart bergerak menjadi perusahaan yang berkembang dengan cepat dan dikagumi melalui penyediaan produk terpercaya yang membawa kebahagiaan dan menciptakan nilai baru untuk mendapatkan konsumen serta memberikan Kenyamanan Dalam Berbelanja dalam upaya melakukan bisnis jangka panjang di Indonesia.",
+        projectDetail: "LOTTE Mart Indonesia is a hypermarket and department store chain offering a wide range of products including groceries, household items, electronics, and fashion, providing comfortable shopping experience for the whole family.",
         technologiesUsed: [
             {
                 tech: "ReactJS"
@@ -841,7 +841,7 @@ const portfolio = [
         projectName: "Fossil",
         url: "https://www.fossil.co.id/",
         image: "/compressed/fossil.webp",
-        projectDetail: "Founded in the 1960s and currently managed by its second generation, Time International manages and operates both multi-brand retail stores – including leading watch retailer The Time Place, INTime, Urban Icon, and @Time – as well as mono-brand boutiques for several of the world’s most renowned brands, among them Chanel, Cartier, TAG Heuer, Fendi, Fossil, Tory Burch, Chopard, Berluti, DIESEL, Innisfree, Laneige, Valentino, REDValentino, Breitling, Lumine, Tissot, Zegna, and most recently Celine. ",
+        projectDetail: "Founded in the 1960s and currently managed by its second generation, Time International manages and operates both multi-brand retail stores – including leading watch retailer The Time Place, INTime, Urban Icon, and @Time – as well as mono-brand boutiques for several of the world's most renowned brands, among them Chanel, Cartier, TAG Heuer, Fendi, Fossil, Tory Burch, Chopard, Berluti, DIESEL, Innisfree, Laneige, Valentino, REDValentino, Breitling, Lumine, Tissot, Zegna, and most recently Celine.",
         technologiesUsed: [
             {
                 tech: "ReactJS"
@@ -868,89 +868,7 @@ const portfolio = [
         projectName: "Urbanicon",
         url: "https://www.urbanicon.co.id/",
         image: "/compressed/urbanicon.webp",
-        projectDetail: "Founded in the 1960s and currently managed by its second generation, Time International manages and operates both multi-brand retail stores – including leading watch retailer The Time Place, INTime, Urban Icon, and @Time – as well as mono-brand boutiques for several of the world’s most renowned brands, among them Chanel, Cartier, TAG Heuer, Fendi, Fossil, Tory Burch, Chopard, Berluti, DIESEL, Innisfree, Laneige, Valentino, REDValentino, Breitling, Lumine, Tissot, Zegna, and most recently Celine.",
-        technologiesUsed: [
-            {
-                tech: "ReactJS"
-            },
-            {
-                tech: "Magento"
-            },
-            {
-                tech: "GraphQL"
-            },
-            {
-                tech: "Kubernetes"
-            },
-            {
-                tech: "Huawei Cloud"
-            },
-            {
-                tech: "Cloudflare"
-            },
-        ]
-    },
-    {
-        id: 38,
-        projectName: "Planet Gadget",
-        url: "https://www.planetgadget.store/",
-        image: "/compressed/planetgadget.webp",
-        projectDetail: "Planet Gadget adalah bisnis retail gadget yang telah beroperasi sejak 1999, dimana berdomisili usaha kantor pusat di Denpasar - Bali. Per Juni 2024, kami telah memiliki 20 toko yang tersebar dari Sabang hingga Merauke, dan kami terus merambah hingga ke pelosok-pelosok Indonesia.",
-        technologiesUsed: [
-            {
-                tech: "Magento"
-            },
-            {
-                tech: "Linode"
-            },
-            {
-                tech: "Cloudflare"
-            },
-        ]
-    },
-    {
-        id: 39,
-        projectName: "Popcultcha",
-        url: "https://www.popcultcha.com.au/",
-        image: "/compressed/popcultcha.webp",
-        projectDetail: "Popcultcha is the largest and most extensive online store of “pop culture” merchandise Australia has ever seen. We are a essentially a department store, but instead of bedding and vacuum cleaners, our departments are full of rad toys, collectables, records, games, posters, art, novelties - pretty much everything you'd actually want to find in a store. In this little world of cult and quirky, we have worked hard to reach the position we are in today, and are proud to be leaders in the worldwide collectables scene.",
-        technologiesUsed: [
-            {
-                tech: "Magento"
-            },
-            {
-                tech: "AWS"
-            },
-            {
-                tech: "Cloudflare"
-            },
-        ]
-    },
-    {
-        id: 40,
-        projectName: "City Chic",
-        url: "https://www.citychic.com.au/",
-        image: "/compressed/citychic.webp",
-        projectDetail: "City Chic is unparalleled in our experience in the plus-size fashion industry.",
-        technologiesUsed: [
-            {
-                tech: "Magento"
-            },
-            {
-                tech: "AWS"
-            },
-            {
-                tech: "Cloudflare"
-            },
-        ]
-    },
-    
-    {
-        id: 41,
-        projectName: "Modena",
-        url: "https://www.modena.com/",
-        image: "/compressed/modena.webp",
-        projectDetail: "For 60 years, MODENA has been on a journey to empower lives through innovation. This legacy of dedication fuels our vision of a more interconnected and purposeful world, powered by technology.",
+        projectDetail: "Urban Icon is part of Time International's portfolio of premium watch and fashion accessory retailers, offering a curated selection of internationally renowned brands for the modern consumer seeking style and quality.",
         technologiesUsed: [
             {
                 tech: "ReactJS"

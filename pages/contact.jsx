@@ -46,7 +46,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
+                <div className="h-16 w-full card_stylings text-2xl sm:text-3xl flex gap-x-4 sm:gap-x-12 items-center justify-center text-Snow">
                     <a className='hover:scale-125 ease-in-out duration-700' href={`https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACTS.EMAIL}`} target='_blank' rel="noreferrer"><SiGmail /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href={SOCIAL_LINKS.TELEGRAM} target='_blank' rel="noreferrer"><FaTelegram /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href={SOCIAL_LINKS.GITHUB} target='_blank' rel="noreferrer"><FaGithub /></a>

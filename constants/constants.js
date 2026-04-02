@@ -1,6 +1,6 @@
 export const NAME = 'Andy Setiyawan';
 
-export const DESIGNATION = `Cloudops Engineer | Devops Engineer | AI Explorer | SRE | Sysadmin | Network engineer | Security Analyst`;
+export const DESIGNATION = `DevOps | SRE | DevSecOps | AI Infrastructure Engineer`;
 
 export const CONTACTS = {
   EMAIL: 'andy.silva270114@gmail.com',
@@ -15,32 +15,20 @@ export const DETAILS = {
 
 export const SKILLS = [
   {
-    title: 'CloudOps Engineer',
-    level: '85%',
+    title: 'DevOps Engineer',
+    level: '90%',
   },
   {
     title: 'SRE',
+    level: '90%',
+  },
+  {
+    title: 'DevSecOps',
     level: '80%',
   },
   {
-    title: 'SysAdmin',
-    level: '80%',
-  },
-  {
-    title: 'DevOps Engineer',
-    level: '75%',
-  },
-  {
-    title: 'Network Engineer',
+    title: 'AI Infrastructure Engineer',
     level: '70%',
-  },
-  {
-    title: 'Security Analyst',
-    level: '70%',
-  },
-  {
-    title: 'AI Explorer',
-    level: '60%',
   }
 ];
 
@@ -49,11 +37,9 @@ export const CLOUD_PROVIDERS = [
   'Azure',
   'DigitalOcean',
   'GCP',
-  'Hostinger',
   'Huawei Cloud',
   'Linode',
   'On-Premises',
-  'Rumahweb',
   'Vercel',
   'Vultr',
 ];
@@ -77,8 +63,10 @@ export const AUTOMATION_TOOLS = [
 ];
 
 export const AI_ML_TOOLS = [
+  'vLLM',
   'ChatGPT',
   'ComfyUI',
+  'Flowwise',
   'Google AI',
   'Hugging Face',
   'LangFlow',
@@ -118,7 +106,7 @@ export const FRAMEWORK = [
   'CodeIgniter',
   'FastAPI',
   'Laravel',
-  'NextJS', 
+  'NextJs', 
   'NuxtJS',
   'React Native', 
   'Streamlit',
