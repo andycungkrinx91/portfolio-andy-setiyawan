@@ -1,16 +1,18 @@
 import ReviewCard from "./ReviewCard"
 import axios from "axios";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 import ParagraphSkeleton from "../../Common/ParagraphSkeleton";
 
 
 
 const ClientReviews = () => {
 
-    const { isLoading, error, data } = useQuery('review', () =>
-        axios.get('api/review')
+    const { isLoading, error, data } = useQuery({
+        queryKey: ['review'],
+        queryFn: () => axios.get('api/review')
             .then(({ data }) => data)
-            .catch(error => console.error('Error fetching testimonials:', error)))
+            .catch(error => console.error('Error fetching testimonials:', error))
+    })
 
 
     return (
@@ -20,8 +22,8 @@ const ClientReviews = () => {
 
                 {
                     isLoading ?
-                        [1, 2, 3, 4, 5].map(() => (
-                            <ParagraphSkeleton className="w-80 md:w-96 h-full p-4 md:p-8" />
+                        [1, 2, 3, 4, 5].map((_, index) => (
+                            <ParagraphSkeleton key={index} className="w-80 md:w-96 h-full p-4 md:p-8" />
                         ))
                         :
                         data?.map((data, key) => (

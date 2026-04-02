@@ -46,26 +46,38 @@ const background = [
         projectCards: [
             {
                 id: 0,
-                title: 'AI CV Optimizer',
-                desc: "AI CV Optimizer is an AI-powered web application that helps job seekers enhance their resumes. By simply uploading a CV and pasting a job description, users get personalized feedback on how to improve their application. The project's source code on GitHub: https://github.com/andycungkrinx91/AI-CV-Optimizer",
-                tech: ['AI', 'FastAPI', 'Streamlit', 'Gemini', 'RAG'],
+                title: 'K6 AI Powered',
+                desc: "Full-stack performance testing platform combining k6 load testing, AI analysis (Gemini, OpenAI, local LLM), and a modern analytics dashboard into a production-ready system (GitHub: https://github.com/andycungkrinx91/k6-AI-Powered)",
+                tech: ['AI', 'K6', 'FastAPI', 'OpenAI', 'Gemini', 'NextJs'],
+            },
+            {
+                id: 1,
+                title: 'Smart RT',
+                desc: "Developed a community management platform (RT/RW) with a public-facing frontend and admin dashboard using Next.js and FastAPI (GitHub: https://github.com/andycungkrinx91/Smart-RT)",
+                tech: ['AI', 'K6', 'FastAPI', 'OpenAI', 'Gemini', 'NextJs'],
             },
             {
                 id: 1,
                 title: 'Terraform for Laravel on DigitalOcean',
-                desc: "Terraform Digitalocean for automation provisioning Laravel. The project's source code on GitHub: https://github.com/andycungkrinx91/terraform-digitalocean-laravel",
+                desc: "Automated infrastructure provisioning for Laravel applications using Terraform on DigitalOcean, improving deployment efficiency and scalability (GitHub: https://github.com/andycungkrinx91/terraform-DigitalOcean-laravel)",
                 tech: ['Terraform', 'DigitalOcean', 'Laravel'],
             },
             {
                 id: 2,
+                title: 'AI CV Optimizer',
+                desc: "Built an AI-powered web application that analyzes CVs against job descriptions to provide personalized improvement recommendations (GitHub: https://github.com/andycungkrinx91/AI-CV-Optimizer)",
+                tech: ['AI', 'FastAPI', 'Streamlit', 'Gemini', 'RAG'],
+            },
+            {
+                id: 2,
                 title: 'Nginx AI Security Suite',
-                desc: "An AI-powered tool designed to enhance web server security. It analyzes Nginx logs and audits website security headers. The project uses a Retrieval-Augmented Generation (RAG) pipeline with Google's Gemini model to provide intelligent, context-aware security recommendations. The GitHub source code for this project can be found at: https://github.com/andycungkrinx91/Nginx-AI-Security-Suite",
+                desc: "Developed an AI-powered security tool using a RAG pipeline with Gemini to analyze Nginx logs and audit security headers, providing context-aware recommendations (GitHub: https://github.com/andycungkrinx91/Nginx-AI-Security-Suite)",
                 tech: ['AI', 'OWASP', 'Nginx', 'Scrapy', 'Playwright', 'FastAPI', 'Streamlit', 'Gemini', 'RAG'],
             },
             {
                 id: 3,
                 title: 'Dockerized ComfyUI',
-                desc: "Engineered a local GenAI image generation environment by containerizing the ComfyUI application with Docker. This setup provides a portable and efficient way to create AI-generated images. The source code is available on GitHub: https://github.com/andycungkrinx91/comfyui-dockerize",
+                desc: "Designed and deployed a containerized GenAI image generation environment using Docker, improving portability, reproducibility, and scalability of AI workloads (GitHub: https://github.com/andycungkrinx91/comfyui-dockerize)",
                 tech: ['Docker', 'ComfyUI', 'GenAI'],
             },
         ],
@@ -75,18 +87,18 @@ const background = [
             {
                 id: 5,
                 title: 'Self Experience Freelance',
-                role: 'Cloudops Enginer | Devops Engineer | AI Infrastructure | Sysadmin | SRE | Network Engineer | Security Analyst | Web Developer',
+                role: 'Cloudops Engineer | Devops Engineer | AI Infrastructure | Sysadmin | SRE | Network Engineer | Security Analyst | Web Developer',
                 url: 'no website',
-                desc: "Designed and built a local server with an intranet for content creators, specifically for AI image editing and generation using ComfyUI. Designing and building a local server with an intranet network for a small community, supporting their needs for AI chat, code generation, and image generation using open-source tools like Llama.cpp and LibreChat. For Hipajak as a freelancer, I designed and built a secure API server with IPsec tunneling to Bank BJB. This system facilitated secure and reliable tax payment transactions for the Samsat Mobile Jawa Barat (Sambara) application. Designed and built a profile website for Sajira Logistik to provide online-accessible information. Installation of CCTV at the Airlangga Education Center branches in Yogyakarta, Surabaya, Bojonegoro, Lamongan, and Tulungagung to ensure that tutoring activities are monitored and secure.",
+                desc: "Designed and deployed local AI servers with intranet (ComfyUI, Llama.cpp, LibreChat), built secure API infrastructure with IPsec tunneling for Hipajak–Bank BJB integration (Sambara), developed a company profile website, and implemented multi-site CCTV systems across Airlangga Education Center branches.",
                 year: '2017 - Present',
                 location: 'Indonesia'
             },
             {
                 id: 1,
                 title: 'Icube by Sirclo',
-                role: 'Cloudops Engineer',
+                role: 'Cloudops Engineer | DevOps Engineer | SRE | DevSecOps | AI Infrastructure Engineer',
                 url: 'https://www.sirclo.com/',
-                desc: 'To maintain and manage cloud server infrastructure on various platforms (GCP, AWS, Huawei, Linode, Digitalocean) for proactive problem detection, conduct in-depth post-incident reviews, and plan system capacity to ensure optimal availability and performance.Designing and developing automation tools and systems for routine operations, including CI/CD management (using Git, Jenkins, Buildkite, and Helm) and Infrastructure as Code (IaC) in a Kubernetes environment, thereby significantly improving the efficiency of the software development process. Actively participating in the entire software development lifecycle, from design and development to deployment, monitoring, and continuous improvement, while collaborating closely with software engineers and cross-divisional teams. Building and operating a secure service environment (through security hardening) and ensuring it is highly scalable. I also perform continuous improvements for highly-available systems. Resolving an average of 10+ L2 escalation tickets per week and reducing critical incident resolution time through efficient root cause analysis.',
+                desc: 'Managed and optimized production-grade multi-cloud infrastructure (GCP, AWS, Huawei, Linode, DigitalOcean), implemented automation and CI/CD pipelines (Git, Jenkins, Buildkite, Helm, Terraform) in Kubernetes, collaborated across the SDLC to deliver scalable systems, enhanced security through hardening, WAF, and intrusion detection, handled incident response and post-mortems, improved high availability, and served as a primary escalation point resolving 10+ weekly L2 incidents with faster root cause analysis.',
                 year: '2019 - 2025',
                 location: 'Full Remote, Indonesia'
             },
@@ -95,7 +107,7 @@ const background = [
                 title: 'PT Media Belajar Indonesia',
                 role: 'Network and Server Engineer',
                 url: 'no website',
-                desc: 'Designing and building an on-premise server infrastructure for a CBT (Computer-Based Test) system to advance computer-based testing at all branches. Designing and building an inter-regional network system covering Yogyakarta, Surabaya, Lamongan, Bojonegoro, and Tulungagung to centralize systems across all branches.',
+                desc: 'Designed and built on-premise CBT server infrastructure and a centralized inter-regional network across Yogyakarta, Surabaya, Lamongan, Bojonegoro, and Tulungagung to unify systems across all branches.',
                 year: '2018 - 2019',
                 location: 'Yogyakarta, Indonesia'
             },
@@ -104,7 +116,7 @@ const background = [
                 title: 'PT Aino Indonesia',
                 role: 'Network Security Analyst',
                 url: 'https://www.ainosi.co.id/',
-                desc: "Designing and building network system security for the e-ticketing platforms of Gembiraloka Zoo, Prambanan Temple, Ratu Boko Temple, Ramayana, MRT, Transjakarta, and Transjogja to support the team and company in realizing a digital-based e-ticketing system.",
+                desc: "Designed and implemented secure network systems for digital e-ticketing platforms across Gembiraloka Zoo, Prambanan Temple, Ratu Boko Temple, Ramayana, MRT, Transjakarta, and Transjogja.",
                 year: '2018 - 2019',
                 location: 'Yogyakarta, Indonesia'
             },
@@ -113,7 +125,7 @@ const background = [
                 title: 'PT Sydeco',
                 role: 'Network Engineer & Sysadmin',
                 url: 'https://www.syde.co/',
-                desc: "Maintaining and monitoring the network on devices like routers, Wi-Fi, switches, CCTV, and on-premise servers to ensure all systems and the network function properly. Designing and building a secure system with optimal and stable customization on a dedicated device used as a first-layer firewall (Using custom Single Board Computer). Provide maintenance and support for hardware, software, and network quality for all teams to enhance cross-divisional collaboration and strengthen teamwork. Developed automation scripts for daily and monthly backup processes, successfully reducing manual task time by 2 hours per week and ensuring a 99.9% data recovery availability.",
+                desc: "Maintained and monitored network and infrastructure (routers, Wi-Fi, switches, CCTV, on-prem servers), built a custom SBC-based firewall for enhanced security, provided cross-team IT support, and automated backup processes reducing manual work by 2 hours/week with 99.9% recovery reliability.",
                 year: '2018 - 2019',
                 location: 'Yogyakarta, Indonesia'
             },

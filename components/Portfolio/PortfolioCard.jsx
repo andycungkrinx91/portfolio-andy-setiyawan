@@ -7,7 +7,7 @@ const PortfolioCard = ({ data }) => {
             <Image
                 src={data?.image}
                 alt={data?.projectName}
-                className="w-full object-cover opacity-30 h-32 sm:h-48 md:h-64"
+                className="w-full object-cover h-32 sm:h-48 md:h-64"
                 loading="lazy"
             />
             <div id="arrow" className="py-2 px-6 card_stylings hover:-translate-y-10 transition-all ease-in-out duration-500">

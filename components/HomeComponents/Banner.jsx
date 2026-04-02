@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className="flex items-center md:items-center md:justify-around">
                         <div className="">
                             <div className="">
-                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, This My Portofolio </h1>
+                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, This is My Portfolio </h1>
                                 <h3 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Check This Out! </h3>
                             </div>
                             <div className="">
@@ -20,13 +20,11 @@ const Banner = () => {
                                             <Typewriter
                                                 options={{
                                                     strings:
-                                                        ['Cloudops Engineer',
-                                                            'Devops Engineer',
+                                                        ['DevOps Engineer',
                                                             'SRE',
-                                                            'AI Explorer',
-                                                            'Sysadmin',
-                                                            'Network Engineer',
-                                                            'Security Analyst'],
+                                                            'DevSecOps',
+                                                            'Cloud Engineer',
+                                                            'AI Infrastructure Engineer'],
                                                     autoStart: true,
                                                     loop: true,
                                                 }}
@@ -41,7 +39,7 @@ const Banner = () => {
                             <Image
                                 src="/compressed/avatar.webp"
                                 alt="emoji"
-                                className='absolute top-8 w-full h-full'
+                                className='object-cover'
                                 loading="lazy"
                                 fill
                             />

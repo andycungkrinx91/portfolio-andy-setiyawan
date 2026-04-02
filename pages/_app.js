@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 
 import Layout from './layout'
-import { QueryClient, QueryClientProvider } from 'react-query'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 const queryClient = new QueryClient()
 
